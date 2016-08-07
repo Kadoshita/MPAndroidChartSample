@@ -53,6 +53,6 @@ public class BarChartActivity extends AppCompatActivity {
 
         mBarChart.setData(barData);
 
-
+        mBarChart.animateY(2000);
     }
 }

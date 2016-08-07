@@ -52,5 +52,7 @@ public class PieChartActivity extends AppCompatActivity {
         pieData.setValueTextColor(Color.WHITE);
 
         mPieChart.setData(pieData);
+
+        mPieChart.animateX(2000);
     }
 }
